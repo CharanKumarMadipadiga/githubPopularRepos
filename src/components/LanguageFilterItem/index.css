@@ -1,0 +1,23 @@
+.language-item {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .language-item {
+    font-size: 15px;
+  }
+}
+
+.active-tab {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 10px;
+  font-weight: 800;
+}
